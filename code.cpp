@@ -12,11 +12,13 @@ int main() {
 
     sum = a + b;
     tru= a-b;
+    nhan=a*b;
 
    
     printf("Tong cua %d và %d là: %d\n", a, b, sum);
     printf("Hieu cua %d và %d là: %d\n", a, b, tru);
-
+	printf("Tich cua %d và %d là: %d\n", a, b, nhan);
+	
     return 0;
 }
 
